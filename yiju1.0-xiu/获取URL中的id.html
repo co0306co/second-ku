@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>获取id</title>
+    <style>
+        a{
+            display: inline-block;
+            width: 10px;
+            height: 20px;
+            background:#ddabca;
+            margin:20px 20px;
+        }
+    </style>
+</head>
+<body>
+
+<a href="http://192.168.0.129/yiju1.0-xiu/yiju-1.html" target="_blank"></a>
+<a href="###"></a>
+<a href="###"></a>
+
+
+
+
+<script>
+
+
+
+
+    function getUrlParams(name){
+
+        var href = "http://192.168.0.129/yiju1.0-xiu/yiju-1.html?id=67&name=iii&age=246";
+
+        var str = (href.substr(href.indexOf("?")+1)).split("&");
+
+        var params = [];
+        for(var i=0; i<str.length; i++){
+
+            params.push(str[i].split("="))
+        }
+
+    console.log(params);
+
+        for(var i=0; i<params.length; i++){
+            if(params[i][0] == name){
+                return params[i][1];
+            }
+        }
+    }
+
+
+    console.log(getUrlParams("name"));
+
+
+
+</script>
+
+<script type="text/javascript" src="jquery库1.8.0%20.js"></script>
+<script type="text/javascript" src="js/yiju-upload.js"></script>
+</body>
+</html>

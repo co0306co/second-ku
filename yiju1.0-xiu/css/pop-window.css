@@ -1,0 +1,159 @@
+.pop{
+    width: 100%;
+}
+.pop-window{
+    width: 771px;
+    height: 505px;
+
+    margin:0 auto;
+    overflow: hidden;
+}
+.pop-center{
+    /*width: 591px;*/
+    height: 405px;
+    margin:50px 90px;
+    /*background: #b2dddc;*/
+}
+.pop-center ul{
+    /*width: 591px;*/
+    height: 205px;
+    /*background: #ddd2da;*/
+}
+
+.pop-center .pop-top{
+    /*background: #ddd4ac;*/
+}
+.pop-top li{
+    float:left;
+    width: 284px;
+    height: 178px;
+    border:1px solid #cccccc;
+    border-radius: 5px;
+}
+
+.pop-t{
+    margin-right:14px;
+}
+.pop-bottom li{
+    float:left;
+    width: 284px;
+    height: 178px;
+    border:1px solid #cccccc;
+    border-radius: 5px;
+}
+
+#pop-b{
+    margin-right:14px;
+    border:none;
+    margin-top:20px;
+}
+
+
+
+.cha{
+    display: inline-block;
+    height:42px;
+    line-height:42px;
+    font-size: 26px;
+    color:#cccccc;
+    position:relative;
+    top:0;
+    left:250px;
+
+}
+
+.juzhong{
+    text-align: center;
+
+}
+.juzhong s{
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background: url(../img/icon.png) -109px -37px no-repeat;
+    vertical-align: -4px;
+}
+.juzhong em{
+    display: inline-block;
+    height: 42px;
+    line-height: 42px;
+    font-size:20px ;
+    color:#333333;
+    font-weight: 500;
+}
+.pop-t a{
+    display: inline-block;
+    height: 42px;
+    line-height: 42px;
+    font-size: 12px;
+    color:#959595;
+    margin-right:4px;
+}
+
+.pop-r p{
+    height: 42px;
+}
+
+.pop-r p a{
+    display: inline-block;
+    width: 88px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    color:#fff;
+    text-align: center;
+    margin: 25px 10px;
+
+}
+
+.bg1{
+    background: #75a749;
+}
+.bg2{
+    background: #999999;
+}
+.block{
+    margin-top:8px;
+}
+
+.sanjiao{
+
+    width:0;
+    height:0;
+
+    border-right:16px solid rgba(0,0,0,0);
+    border-bottom:16px solid #ffbebe;
+    border-left:16px solid rgba(0,0,0,0);
+    margin-left: 20px;
+
+}
+.link{
+    width: 168px;
+    height: 36px;
+    background:#ffbebe ;
+    border-radius: 5px;
+}
+.link i{
+  display: inline-block;
+    width: 24px;
+    height: 24px;
+    background: #b2dddc;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.link .qq{
+    background: url(../img/icon.png) -142px -37px no-repeat;
+}
+.link .kong{
+    background: url(../img/icon.png) -175px -37px no-repeat;
+}
+.link .tengxun{
+    background: url(../img/icon.png) -214px -37px no-repeat;
+}
+.link .weixin{
+    background: url(../img/icon.png) -253px -37px no-repeat;
+}
+.link .sina{
+    background: url(../img/icon.png) -286px -37px no-repeat;
+}
